@@ -3,7 +3,7 @@ pipeline {
   label 'master'
   }
   stages {
-    stage("foo") {
+    stage("foo1") {
       steps {
             sh 'echo "The answer is 42"'
       }
